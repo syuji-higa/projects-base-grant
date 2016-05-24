@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+//************************************************
+//			= browser
+//************************************************
+
+// PC
+//======================================
+$support-ie6   : true !default;
+$support-ie7   : true !default;
+$support-ie8   : true !default;
+$support-ie9   : true !default;
+$support-ie10  : true !default;
+$support-ie11  : true !default;
+$support-moz   : true !default;
+$support-webkit: true !default;
+$support-opera : true !default;
+
+// SP
+//======================================
+$support-ios6     : true !default;
+$support-ios7     : true !default;
+$support-android23: true !default;
+$support-android30: true !default;
+$support-android43: true !default;
+$support-android44: true !default;
+
+//************************************************
+//			= variable
+//************************************************
+
+// breakpoint
+//======================================
+$breakpoint_s:  768px;
+$breakpoint_m:  992px;
+$breakpoint_l: 1200px;
+
+// width
+//======================================
+$w_contents: 950px;
+$w_main    : 690px;
+$w_sub     : 240px;
+
+// path
+//======================================
+$p_i_cmn  : "/cmn/img";
+$p_i_home : "/cmn/home";
+$p_i_other: "/cmn/other";
+
+// color
+//======================================
+$c_base  : #fff;
+$c_main  : #fcc;
+$c_accent: #f00;
